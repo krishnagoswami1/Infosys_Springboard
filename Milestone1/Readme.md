@@ -1,3 +1,24 @@
+## Milestone 1: Code Explainer
+1. Prepare a minimum of 10 code snippets.
+2. For each snippet:
+
+   * Parse using AST (Abstract Syntax Tree).
+
+   * Extract functions, classes, imports, and code patterns.
+
+   * Tokenize the code.
+
+3. Forward the processed snippets to the following pretrained models:
+
+   * MiniLM
+
+   * DistilRoBERTa
+
+   * MPNet
+
+4. Perform model comparisons and generate visualizations to illustrate differences in outputs and embeddings.
+
+
 
 ## 🎯 Objective
 
