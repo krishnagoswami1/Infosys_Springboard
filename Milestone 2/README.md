@@ -134,3 +134,15 @@ The **Maintainability Index** is a composite metric that provides a single, easy
   * **Why it Matters**: While not a direct measure of quality, LOC provides insight into a model's coding "style." Some models might produce very verbose, step-by-step solutions, while others might favor more concise, modern syntax (like list comprehensions or ternary operators). Comparing LOC can reveal which models generate more compact and potentially more readable code.
   * **The Mathematics**: A simple count of executable lines.
   * **Interpretation**: The ideal LOC is context-dependent. Sometimes a few extra lines improve clarity, while other times, conciseness is better. In this benchmark, it's used as a comparative metric to analyze the **verbosity** of each model's solution.
+
+## 📊 Observations: 
+* **Cyclomatic Complexity**
+* <img width="1086" height="505" alt="image" src="https://github.com/user-attachments/assets/c112a2c6-9ba0-4133-8601-bb0733d6e398" />
+* **Maintainability Index**
+* <img width="1099" height="508" alt="image" src="https://github.com/user-attachments/assets/779ff2af-b9d0-4b84-9afe-6fd8fca5ba96" />
+* **Avg Lines of Code**
+* <img width="1101" height="516" alt="image" src="https://github.com/user-attachments/assets/151b5172-9737-4381-9838-ce5d1e4b2fb2" />
+* **Lines of Code generated per second**
+* <img width="1105" height="513" alt="image" src="https://github.com/user-attachments/assets/1cc9526b-6d77-486e-a7bf-d788e3d9e454" />
+
+## Conclusions: 
