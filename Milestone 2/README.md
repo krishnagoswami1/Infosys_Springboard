@@ -146,3 +146,21 @@ The **Maintainability Index** is a composite metric that provides a single, easy
 * <img width="1105" height="513" alt="image" src="https://github.com/user-attachments/assets/1cc9526b-6d77-486e-a7bf-d788e3d9e454" />
 
 ## Conclusions: 
+
+Of course. Here is a summary formatted for the conclusion section of your `README.md` file, incorporating your perspective on Gemma's strengths.
+
+***
+
+### Conclusion
+In this milestone we have benchmarked four prominent code generation models: `DeepSeek-Coder-1.3B`, `Phi-2-2.7B`, `Gemma-2B-IT`, and `Stable-code-3b`. The evaluation was based on quantitative metrics including generation speed (`generation_time`), code complexity, and maintainability.
+
+Based on the raw performance data:
+* **`Phi-2-2.7B`** consistently emerged as the top performer in terms of speed and efficiency. It delivered the fastest generation times while producing high-quality, maintainable code, making it an excellent choice for tasks where speed and clean output are critical.
+* **`DeepSeek-Coder-1.3B`** also produced high-quality code but was generally slower than `Phi-2`.
+
+However, quantitative metrics do not capture the full picture. From a qualitative standpoint, **`Gemma-2B-IT`** offers a significant advantage. As a model specifically trained on a vast corpus of code, it excels at providing diverse and varied implementations for a single prompt. This versatility is invaluable for exploring different algorithmic approaches and discovering novel solutions that other models might not produce.
+
+**Final Recommendation:**
+
+* For **rapid development and straightforward, high-quality code generation**, **`Phi-2-2.7B`** is the recommended choice.
+* For projects that benefit from **exploring multiple solutions and leveraging a model with deep coding knowledge**, **`Gemma-2B-IT`** is the superior option, despite its slower generation time.
